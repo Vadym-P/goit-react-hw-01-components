@@ -1,4 +1,4 @@
-import Profile from './components/task_1/Profile';
+import Profile from './components/task_1';
 import user from './user.json';
 
 export default function App() {

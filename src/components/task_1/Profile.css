@@ -1,0 +1,58 @@
+.Profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.Description {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Stats {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(151, 151, 151);
+}
+
+.Wrapper {
+  width: 250px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 5px;
+}
+
+.Avatar {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.Stats-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.Stats-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+p {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.Name {
+  font-weight: 700;
+}
+
+.Quantity {
+  position: relative;
+  font-weight: 700;
+}
