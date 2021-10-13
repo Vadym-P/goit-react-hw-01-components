@@ -3,18 +3,6 @@
   text-align: center;
 }
 
-.container:nth-child(2)::after {
-  position: absolute;
-  display: block;
-  content: '';
-  width: 100%;
-  height: 3px;
-  background-color: rgb(128, 241, 128);
-  border-radius: 2px;
-  width: 400px;
-  transform: translate(644px, -36px);
-}
-
 .statistics {
   margin-bottom: 70px;
 }
