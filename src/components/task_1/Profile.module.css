@@ -1,45 +1,48 @@
-.Profile {
+.container {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin-top: 15px;
+  margin-bottom: 100px;
 }
 
-.Description {
+.description {
   text-align: center;
   margin: 0 auto;
 }
 
-.Stats {
+.list {
   display: flex;
   justify-content: center;
   font-style: italic;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(151, 151, 151);
+  background-color: var(--light-grey-color);
 }
 
-.Wrapper {
+.wrapper {
   width: 250px;
   margin: 0 auto;
   padding: 10px 0px;
-  border: 1px solid rgb(151, 151, 151);
+  border: 1px solid var(--light-grey-color);
   border-radius: 5px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.Avatar {
+.avatar {
   width: 150px;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 
-.Stats-item {
+.item {
   position: relative;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.Stats-item:not(:last-child) {
+.item:not(:last-child) {
   margin-right: 15px;
 }
 
@@ -48,11 +51,11 @@ p {
   padding-bottom: 10px;
 }
 
-.Name {
+.name {
   font-weight: 700;
 }
 
-.Quantity {
+.quantity {
   position: relative;
   font-weight: 700;
 }
