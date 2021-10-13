@@ -1,0 +1,37 @@
+.transaction {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+table {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+table td {
+  width: 20%;
+}
+
+th,
+td {
+  border: 1px solid rgb(230, 233, 235);
+  padding: 10px 15px;
+  text-align: center;
+}
+
+thead {
+  background-color: rgb(0, 188, 213);
+  color: rgb(255, 255, 255);
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(236, 241, 243);
+}
+
+tr:hover {
+  background-color: rgb(0, 188, 213);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
